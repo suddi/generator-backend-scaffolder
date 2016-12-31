@@ -1,11 +1,11 @@
 machine:
     node:
-        version:
-          - "7"
-          - "6"
-          - "4"
-    timezone:
-        Asia/Hong_Kong
+        version: 4
 test:
+    override:
+        - npm test
+        - nvm use 5; npm test
+        - nvm use 6; npm test
+        - nvm use 7; npm test
     post:
         - bash <(curl -s https://codecov.io/bash)
