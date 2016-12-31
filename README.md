@@ -17,4 +17,6 @@ npm install generator-backend-scaffolder
 
 ## Usage
 
-Coming soon.
+````
+yo backend-scaffolder
+````
