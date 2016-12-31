@@ -1,0 +1,12 @@
+verbose: false
+reporting:
+    reports:
+        - lcov
+        - text
+check:
+    global:
+        statements: 0
+        branches: 0
+    each:
+        statements: 0
+        branches: 0

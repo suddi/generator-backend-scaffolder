@@ -1,0 +1,11 @@
+machine:
+    node:
+        version:
+          - "7"
+          - "6"
+          - "4"
+    timezone:
+        Asia/Hong_Kong
+test:
+    post:
+        - bash <(curl -s https://codecov.io/bash)

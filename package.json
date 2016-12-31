@@ -1,0 +1,69 @@
+{
+  "name": "generator-backend-scaffolder",
+  "description": "Scaffolder for backend code, covering testing, code coverage, doctests and linting",
+  "version": "1.0.0",
+  "homepage": "https://github.com/suddi/generator-backend-scaffolder",
+  "author": {
+    "name": "Sudharshan Ravindran",
+    "email": "suddir@gmail.com",
+    "url": "https://suddi.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suddi/generator-backend-scaffolder"
+  },
+  "bugs": {
+    "url": "https://github.com/suddi/generator-backend-scaffolder/issues"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "license": "MIT",
+  "keywords": [
+    "scaffolding",
+    "eslint",
+    "lint",
+    "doctest",
+    "coverage",
+    "istanbul",
+    "mocha",
+    "prepush",
+    "hook",
+    "bootstrap",
+    "yeoman-generator"
+  ],
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 2.0.0"
+  },
+  "scripts": {
+    "check-coverage": "istanbul check-coverage",
+    "coverage": "istanbul cover _mocha -- --opts test/options/default.opts",
+    "doctest": "mocha --opts test/options/doctest.opts",
+    "lint": "eslint .",
+    "prepush": "npm test",
+    "security-check": "nsp check --output summary",
+    "test": "npm run lint && npm run doctest && npm run coverage && npm run check-coverage"
+  },
+  "dependencies": {
+    "generator-license": "^4.0.0",
+    "lodash": "^4.0.0",
+    "yeoman-generator": "^1.0.0",
+    "yosay": "^1.0.0"
+  },
+  "devDependencies": {
+    "yeoman-test": "^1.0.0",
+    "yeoman-assert": "^2.0.0",
+    "eslint": "^3.0.0",
+    "eslint-config-suddi": "^3.0.0",
+    "husky": "^0.12.0",
+    "istanbul": "^0.4.0",
+    "jsdoctest": "^1.0.0",
+    "mocha": "^3.0.0",
+    "nsp": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "suddi/backend"
+  }
+}

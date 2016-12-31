@@ -1,0 +1,7 @@
+generators/
+test/
+--timeout 30000
+--recursive
+--require jsdoctest
+--reporter spec
+
