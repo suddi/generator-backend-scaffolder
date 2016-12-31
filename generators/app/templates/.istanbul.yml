@@ -2,6 +2,7 @@ verbose: false
 reporting:
     reports:
         - lcov
+        - json
         - text
 check:
     global:
