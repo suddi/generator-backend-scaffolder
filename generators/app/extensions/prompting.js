@@ -55,17 +55,6 @@ function getPrompts() {
             store: true
         },
         {
-            type: 'input',
-            name: 'keywords',
-            message: 'Package Keywords (separate by comma)',
-            filter: function (words) {
-                if (!words) {
-                    return '';
-                }
-                return words.split(/\s*,\s*/g);
-            }
-        },
-        {
             type: 'list',
             name: 'ci',
             message: 'CI Tool',

@@ -6,7 +6,8 @@ module.exports.get = function (specific) {
             '.editorconfig',
             '.eslintignore',
             '.gitignore',
-            '.istanbul.yml'
+            '.istanbul.yml',
+            'test'
         ],
 
         CI_OPTIONS: {

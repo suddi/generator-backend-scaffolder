@@ -18,7 +18,7 @@ function getOptions() {
         projectRoot: {
             type: String,
             required: false,
-            default: 'lib',
+            default: '',
             desc: 'Relative path to the project code root'
         },
         license: {

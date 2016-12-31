@@ -19,7 +19,7 @@
     "generators"
   ],
   "main": "generators/index.js",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "keywords": [
     "scaffolding",
     "eslint",
