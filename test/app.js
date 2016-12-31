@@ -47,7 +47,9 @@ describe('Integration Tests for generator-backend-scaffolder', function () {
             return helpers
                 .run(path.join(__dirname, '../generators/app'))
                 .withOptions({projectRoot: 'lib'})
-                .withPrompts(getPrompts())
+                .withPrompts(getPrompts({
+                    moduleName: 'projectRootSet'
+                }))
                 .toPromise();
         });
 
@@ -61,7 +63,9 @@ describe('Integration Tests for generator-backend-scaffolder', function () {
             return helpers
                 .run(path.join(__dirname, '../generators/app'))
                 .withOptions({license: false})
-                .withPrompts(getPrompts())
+                .withPrompts(getPrompts({
+                    moduleName: 'licenseFalse'
+                }))
                 .toPromise();
         });
 
