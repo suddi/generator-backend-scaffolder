@@ -1,5 +1,4 @@
 generators/
-test/
 --recursive
 --require jsdoctest
 --reporter spec

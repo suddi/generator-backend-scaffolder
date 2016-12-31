@@ -44,7 +44,7 @@
     "lint": "eslint .",
     "prepush": "npm test",
     "security-check": "nsp check --output summary",
-    "test": "npm run lint && npm run doctest && npm run coverage && npm run check-coverage"
+    "test": "npm run lint && npm run doctest && npm run coverage"
   },
   "dependencies": {
     "generator-license": "^4.0.0",
@@ -53,15 +53,17 @@
     "yosay": "^1.0.0"
   },
   "devDependencies": {
-    "yeoman-test": "^1.0.0",
-    "yeoman-assert": "^2.0.0",
+    "chai": "^3.5.0",
     "eslint": "^3.0.0",
     "eslint-config-suddi": "^3.0.0",
     "husky": "^0.12.0",
     "istanbul": "^0.4.0",
     "jsdoctest": "^1.0.0",
     "mocha": "^3.0.0",
-    "nsp": "^2.0.0"
+    "nsp": "^2.0.0",
+    "rewire": "^2.5.2",
+    "yeoman-assert": "^2.0.0",
+    "yeoman-test": "^1.0.0"
   },
   "eslintConfig": {
     "extends": "suddi/backend"

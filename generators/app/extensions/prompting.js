@@ -13,10 +13,7 @@ function getPrompts() {
             name: 'moduleName',
             message: 'Module Name',
             default: _.kebabCase(path.basename(process.cwd())),
-            filter: _.kebabCase,
-            validate: function (str) {
-                return str.length > 0;
-            }
+            filter: _.kebabCase
         },
         {
             type: 'input',
