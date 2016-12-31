@@ -1,7 +1,7 @@
 {
   "name": "generator-backend-scaffolder",
   "description": "Scaffolder for backend code, covering testing, code coverage, doctests and linting",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "homepage": "https://github.com/suddi/generator-backend-scaffolder",
   "author": {
     "name": "Sudharshan Ravindran",
@@ -19,7 +19,7 @@
     "generators"
   ],
   "main": "generators/index.js",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "keywords": [
     "scaffolding",
     "eslint",
@@ -45,7 +45,7 @@
     "prepush": "npm test",
     "security-check": "nsp check --output summary",
     "start": "ntl",
-    "test": "npm run lint && npm run doctest && npm run coverage && npm run check-coverage"
+    "test": "npm run lint && npm run security-check && npm run doctest && npm run coverage && npm run check-coverage"
   },
   "dependencies": {
     "generator-license": "^4.0.0",
