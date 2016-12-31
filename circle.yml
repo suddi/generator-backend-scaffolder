@@ -6,6 +6,5 @@ test:
         - npm test
         - nvm use 5; npm test
         - nvm use 6; npm test
-        - nvm use 7; npm test
     post:
         - bash <(curl -s https://codecov.io/bash)
