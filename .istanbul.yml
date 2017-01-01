@@ -10,4 +10,4 @@ check:
         branches: 100
     each:
         statements: 100
-        branches: 0
+        branches: 100

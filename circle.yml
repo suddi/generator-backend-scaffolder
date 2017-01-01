@@ -1,10 +1,9 @@
 machine:
     node:
-        version: 4
+        version: '6.9.2'
 test:
     override:
-        - npm test
-        - nvm use 5; npm test
-        - nvm use 6; npm test
+        - source ./bin/ci.sh:
+            parallel: true
     post:
         - bash <(curl -s https://codecov.io/bash)
