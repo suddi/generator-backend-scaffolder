@@ -33,7 +33,7 @@ Yeoman backend scaffolder for Node.js modules.
         - [Unlicense](http://unlicense.org/)
 
 ````
-npm install generator-backend-scaffolder
+npm install --g generator-backend-scaffolder
 ````
 
 ## Usage

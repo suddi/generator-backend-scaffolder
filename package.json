@@ -1,7 +1,7 @@
 {
   "name": "generator-backend-scaffolder",
   "description": "Scaffolder for backend code, covering testing, code coverage, doctests and linting",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "homepage": "https://github.com/suddi/generator-backend-scaffolder",
   "author": {
     "name": "Sudharshan Ravindran",
