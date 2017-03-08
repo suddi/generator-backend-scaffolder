@@ -1,12 +1,12 @@
 {
   "name": "generator-backend-scaffolder",
   "description": "Scaffolder for backend code, covering testing, code coverage, doctests and linting",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "homepage": "https://github.com/suddi/generator-backend-scaffolder",
   "author": {
     "name": "Sudharshan Ravindran",
-    "email": "suddir@gmail.com",
-    "url": "https://suddi.github.io"
+    "email": "mail@suddi.io",
+    "url": "https://suddi.io"
   },
   "repository": {
     "type": "git",
@@ -51,7 +51,7 @@
     "generator-license": "^5.0.0",
     "lodash": "^4.0.0",
     "yeoman-generator": "^1.0.0",
-    "yosay": "^1.0.0"
+    "yosay": "^2.0.0"
   },
   "devDependencies": {
     "chai": "^3.0.0",
@@ -64,7 +64,7 @@
     "nsp": "^2.0.0",
     "ntl": "^1.0.0",
     "rewire": "^2.0.0",
-    "yeoman-assert": "^2.0.0",
+    "yeoman-assert": "^3.0.0",
     "yeoman-test": "^1.0.0"
   },
   "eslintConfig": {
