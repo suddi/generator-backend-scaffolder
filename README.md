@@ -1,6 +1,6 @@
 # generator-backend-scaffolder
 
-[![CircleCI](https://img.shields.io/circleci/project/suddi/generator-backend-scaffolder.svg)](https://circleci.com/gh/suddi/generator-backend-scaffolder)
+[![CircleCI](https://img.shields.io/circleci/project/suddi/generator-backend-scaffolder/master.svg)](https://circleci.com/gh/suddi/generator-backend-scaffolder)
 [![codecov](https://codecov.io/gh/suddi/generator-backend-scaffolder/branch/master/graph/badge.svg)](https://codecov.io/gh/suddi/generator-backend-scaffolder)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ba6244dc47f34661a99cefb159d93bcb)](https://www.codacy.com/app/Suddi/generator-backend-scaffolder)
 [![npm](https://img.shields.io/npm/v/generator-backend-scaffolder.svg)](https://www.npmjs.com/package/generator-backend-scaffolder)
