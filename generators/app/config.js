@@ -11,8 +11,8 @@ module.exports.get = function (specific) {
         ],
 
         CI_OPTIONS: {
-            CircleCI: 'circle.yml',
-            TravisCI: '.travis.yml',
+            'CircleCI': 'circle.yml',
+            'TravisCI': '.travis.yml',
             'I do not want a CI Tool': ''
         }
     };
