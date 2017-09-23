@@ -24,7 +24,7 @@ function getReadmeParams() {
 
 function getProjectRoot(projectRoot) {
     if (projectRoot) {
-        return projectRoot + '/';
+        return `${projectRoot}/`;
     }
     return projectRoot;
 }

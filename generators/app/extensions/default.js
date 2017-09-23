@@ -6,11 +6,12 @@ const path = require('path');
 function createDirIfNotExists() {
     const currentPath = path.basename(this.destinationPath());
     if (currentPath !== this.props.moduleName) {
-        this.log(
-            `Your generator must be inside a folder
+        const message = `
+            Your generator must be inside a folder
             named ${this.props.moduleName}\n
-            I'll automatically create this folder.`
-        );
+            I'll automatically create this folder.
+        `;
+        this.log(message);
         fs.mkdir(this.props.moduleName);
         this.destinationRoot(this.destinationPath(this.props.moduleName));
     }
