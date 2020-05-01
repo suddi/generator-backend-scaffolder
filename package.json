@@ -45,13 +45,16 @@
     "prepush": "npm test",
     "security-check": "nsp check --output summary",
     "start": "ntl",
-    "test": "npm run lint && npm run security-check && npm run coverage && npm run check-coverage"
+    "test": "npm run lint && npm run security-check && npm run coverage && npm run check-coverage",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "generator-license": "^5.0.0",
     "lodash": "^4.0.0",
     "yeoman-generator": "^1.0.0",
-    "yosay": "^2.0.0"
+    "yosay": "^2.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "chai": "^4.0.2",
@@ -69,5 +72,6 @@
   },
   "eslintConfig": {
     "extends": "suddi/backend"
-  }
+  },
+  "snyk": true
 }
