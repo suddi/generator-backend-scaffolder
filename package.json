@@ -48,9 +48,9 @@
     "test": "npm run lint && npm run security-check && npm run coverage && npm run check-coverage"
   },
   "dependencies": {
-    "generator-license": "^5.0.0",
+    "generator-license": "^5.5.0",
     "lodash": "^4.0.0",
-    "yeoman-generator": "^1.0.0",
+    "yeoman-generator": "^4.11.0",
     "yosay": "^2.0.0"
   },
   "devDependencies": {
