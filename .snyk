@@ -1,0 +1,31 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - yeoman-generator > yeoman-environment > inquirer > external-editor > extend:
+        patched: '2022-10-09T22:16:24.580Z'
+    - generator-license > yeoman-generator > yeoman-environment > inquirer > external-editor > extend:
+        patched: '2022-10-09T22:16:24.580Z'
+  SNYK-JS-LODASH-567746:
+    - yeoman-generator > lodash:
+        patched: '2022-10-09T22:16:24.580Z'
+    - yeoman-generator > async > lodash:
+        patched: '2022-10-09T22:16:24.580Z'
+    - yeoman-generator > yeoman-environment > lodash:
+        patched: '2022-10-09T22:16:24.580Z'
+    - generator-license > yeoman-generator > lodash:
+        patched: '2022-10-09T22:16:24.580Z'
+    - generator-license > yeoman-generator > async > lodash:
+        patched: '2022-10-09T22:16:24.580Z'
+    - yeoman-generator > yeoman-environment > grouped-queue > lodash:
+        patched: '2022-10-09T22:16:24.580Z'
+    - yeoman-generator > yeoman-environment > inquirer > lodash:
+        patched: '2022-10-09T22:16:24.580Z'
+    - generator-license > yeoman-generator > yeoman-environment > lodash:
+        patched: '2022-10-09T22:16:24.580Z'
+    - generator-license > yeoman-generator > yeoman-environment > grouped-queue > lodash:
+        patched: '2022-10-09T22:16:24.580Z'
+    - generator-license > yeoman-generator > yeoman-environment > inquirer > lodash:
+        patched: '2022-10-09T22:16:24.580Z'
