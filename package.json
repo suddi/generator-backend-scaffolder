@@ -50,7 +50,7 @@
   "dependencies": {
     "generator-license": "^5.0.0",
     "lodash": "^4.0.0",
-    "yeoman-generator": "^1.0.0",
+    "yeoman-generator": "^5.0.0",
     "yosay": "^2.0.0"
   },
   "devDependencies": {
