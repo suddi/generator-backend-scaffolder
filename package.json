@@ -51,7 +51,7 @@
     "generator-license": "^5.0.0",
     "lodash": "^4.0.0",
     "yeoman-generator": "^1.0.0",
-    "yosay": "^2.0.0"
+    "yosay": "^3.0.0"
   },
   "devDependencies": {
     "chai": "^4.0.2",
